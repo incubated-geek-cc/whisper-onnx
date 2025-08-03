@@ -137,3 +137,8 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Other artifacts
+public/models/Xenova/whisper-base.en/onnx/decoder_model_merged_fp16.onnx
+public/models/Xenova/whisper-tiny.en/onnx/decoder_model_merged_fp16.onnx
+public/cover_img.png
