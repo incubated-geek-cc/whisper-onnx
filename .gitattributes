@@ -1,0 +1,2 @@
+public/models/Xenova/whisper-base.en/onnx/decoder_model_merged_fp16.onnx filter=lfs diff=lfs merge=lfs -text
+public/models/Xenova/whisper-tiny.en/onnx/decoder_model_merged_fp16.onnx filter=lfs diff=lfs merge=lfs -text
