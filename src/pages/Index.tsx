@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { Settings, Loader2, LoaderCircle, Heart, Github, Info } from 'lucide-react';
+import { Settings, Loader2, LoaderCircle, Heart, Github, PencilLine } from 'lucide-react';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { TabNavigation, TabType } from '@/components/TabNavigation';
@@ -233,6 +233,14 @@ export const Index = () => {
                     className="flex items-center gap-2 px-2 py-1 rounded hover:bg-muted transition-colors text-sm"
                   >
                     <Github className="h-4 w-4" /> View on GitHub
+                  </a>
+                  <a
+                    href="https://geek-cc.medium.com/adab61be7af7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-2 py-1 rounded hover:bg-muted transition-colors text-sm"
+                  >
+                    <PencilLine className="h-4 w-4" /> Read on Medium
                   </a>
                 </div>
               </PopoverContent>

@@ -24,7 +24,7 @@
 
 ### ✍ Read related post here
 
-[**Article :: Link :: Implementing Whisper OpenAI In-Browser for Offline Audio Transcription**](#)
+[**Article :: Link :: Implementing Whisper OpenAI In-Browser for Offline Audio Transcription**](https://geek-cc.medium.com/adab61be7af7)
 
 
 ## Features
@@ -50,7 +50,7 @@ Download these files to `public/models/Xenova/whisper-tiny.en/`:
 - `preprocessor_config.json`
 - `quant_config.json`
 - `quantize_config.json`
-- `special_tokens_map.json
+- `special_tokens_map.json`
 - `tokenizer.json`
 - `tokenizer_config.json`
 - `vocab.json`
@@ -67,7 +67,7 @@ Download these files to `public/models/Xenova/whisper-base.en/`:
 - `preprocessor_config.json`
 - `quant_config.json`
 - `quantize_config.json`
-- `special_tokens_map.json
+- `special_tokens_map.json`
 - `tokenizer.json`
 - `tokenizer_config.json`
 - `vocab.json`
@@ -78,7 +78,7 @@ Download these files to `public/models/Xenova/whisper-base.en/`:
 
 1. Clone the repository
 2. Install dependencies: `npm install`
-3. Download the required model files (see above)
+3. Download the required model files (refer to above)
 4. Build and start the server: `npm run build && npm run preview`
 
 ## Technology Stack
